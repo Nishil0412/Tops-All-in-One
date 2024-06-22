@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(114, 108, 108);
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.grey{
+    height: 250px;
+    background-color: grey;
+    color: white;
+}
+h1{
+    padding-top: 100px;
+    padding-left: 115px;
+}
+button{
+    padding: 0px;
+    margin-right: 0px;
+    gap: 0;
+    width: 50px;
+    height: 25px;
+    margin-top: 20px;
+}
+.white{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.container1{
+    display: flex;
+}
+.container2{
+    display: flex;
+}

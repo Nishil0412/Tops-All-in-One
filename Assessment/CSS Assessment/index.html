@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registaration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./image.jpg">
+    <!-- using second link icon for fevicon -->
+</head>
+
+<body>
+    <div class="container">
+        <blockquote>
+            <form action="#">
+                <h1>Student Registaration Form</h1>
+                <br>
+                <!-- Taking Div for inline in css -->
+                <label for="fname">First Name:</label>
+                <!-- required for Form can’t be submitted if it is empty. -->
+                <input type="text" name="fname" id="fname" placeholder="Enter your first name" required
+                    pattern="[A-Za-z]{3,6}"><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" placeholder="Enter your last name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="it should contain @,." required><br>
+                <label for="mobile">Mobile:</label>
+                <input type="tel" name="number" id="number" placeholder="only 10 digits are allowed" required
+                    pattern="[0-9]{10}"><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="same" id="male"><label for="male">Male</label><input type="radio" name="same"
+                    id="female"><label for="female">Female</label><br>
+                <!-- same name in radio for select anyone field -->
+                <label for="dob">Date Of Birth:</label>
+                <input type="date" name="dob" id="dob" required><br>
+                <label for="address">Address:</label>
+                <textarea name="address" id="address" rows="10"  required></textarea><br>
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city" required><br>
+                <label for="pin">Area PIN:</label>
+                <input type="text" name="pin" id="pin" required><br>
+                <label for="state">State:</label>
+                <input type="text" name="state" id="state" required><br>
+                <label for="qualification">Qualification:</label>
+                <select id="qualification" name="qualification">
+                    <option value="#" selected disabled>Select Qualification</option>
+                    <option value="SSC">SSC</option>
+                    <option value="HSC">HSC</option>
+                    <option value="UG">UG</option>
+                    <option value="PG">PG</option>
+                </select> <br>
+                <label>Specialization:</label>
+                <input type="checkbox" id="specialization1" name="specialization[]" value="Computer Science">Computer
+                Science <br>
+                <input type="checkbox" id="specialization2" name="specialization[]"
+                    value="Information Technology">Information Technology <br>
+                <input type="checkbox" id="specialization3" name="specialization[]"
+                    value="Computer Architecture">Computer
+                Architecture <br>
+                <input type="checkbox" id="specialization4" name="specialization[]" value="Tele Communication">Tele
+                Communicationbr <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required> <br>
+
+                <input type="submit" value="Registered">
+
+            </form>
+        </blockquote>
+    </div>
+
+</body>
+
+</html>

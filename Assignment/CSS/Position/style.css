@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.main1{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(34, 33, 33);
+}
+.main2{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    background: url(./Put\ Your\ Image.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+h1{
+    color: white;
+    padding-top: 28%;
+}
+h1,p,h3{
+    text-align: end;
+    padding-right: 50px;
+
+}
+p{
+    color: white;
+
+}
+h3{
+    color: orangered;
+}
+.icon1{
+    position: absolute;
+    top: 38%;
+    left: 48%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
+.icon2{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
+.icon3{
+    position: absolute;
+    top: 72%;
+    left: 48%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
